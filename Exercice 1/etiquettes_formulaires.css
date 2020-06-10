@@ -1,0 +1,22 @@
+h1 {
+    font-size: 18pt;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+@media screen and (max-width:480px) {
+    p {
+        display:flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    label {
+        text-align: left;
+    }
+}

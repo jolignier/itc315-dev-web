@@ -1,0 +1,55 @@
+@media screen and (min-width: 801px){
+	#titrePage {
+		font-size:36pt;
+		font-family:"Times New Roman", Times, serif;
+		background-color:#9999FF
+	}
+
+	#container {
+		font-size: 16pt;
+		position: relative;
+		width: 100%;
+	}
+
+	#colonneG {
+		width: 200px;
+		height: 100%;
+		float:left;
+	}
+
+	#contenuPage {
+		margin-left: 210px;
+	}
+
+	#footer {
+		border: 2px gray solid;
+		padding: 5pt;
+		margin-top: 5pt;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#titrePage {
+		font-size:32pt;
+		font-family:"Times New Roman", Times, serif;
+		color: white;
+		background-color: #797d08;
+		text-align: right;
+	}
+	#container {
+		font-size: 16pt;
+	}
+	
+	#colonneG ul {
+		padding: 0 ;
+	}
+	#colonneG ul li{
+		display: inline-block;
+		padding: 0 5px;
+	}
+	#footer {
+		border: 2px gray solid;
+		padding: 5pt;
+		margin-top: 5pt;
+	}
+}
